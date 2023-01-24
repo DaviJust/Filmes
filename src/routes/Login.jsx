@@ -28,7 +28,7 @@ export default function Cadastro() {
       alert("Conta não existe.");
     } else {
       localStorage.setItem( 'logado','true' );
-      navigate('/Filmes')
+      navigate('/Home')
     }
   }
 
