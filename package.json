@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://davijust.github.io/vite-gh/",
+  "homepage": "https://davijust.github.io/Filmes/",
   "scripts": {
     "build": "vite build",
     "predeploy": "npm run build",
