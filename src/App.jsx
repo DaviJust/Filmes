@@ -20,19 +20,13 @@ import Contato from './routes/Contato.jsx';
 function App() {
 
   return (
-    <BrowserRouter>
+    <div>
       <Header />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Filmes" element={<Filmes />} />
-        <Route path="/Sobre" element={<Sobre />} />
-        <Route path="/PostarFilme" element={<PostFilme />} />
-        <Route path='/Contato' element={<Contato />} />
-      </Routes>
+      <Login/>
       <Footer />
-    </BrowserRouter>
+    </div>
   );
 }
 
+<Login/>
 export default App;
