@@ -7,7 +7,7 @@ function Header(){
     let loginOn = localStorage.getItem('logado');
     return(
         <div className={styles.headerDiv}>
-            <Link to='/'>
+            <Link to='/Home'>
                 <h1 className={styles.text}>{<BiCameraMovie className={styles.iconText}/>} React Flix</h1>
             </Link>
             <ul>
