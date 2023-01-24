@@ -10,7 +10,7 @@ function Header(){
                 <h1 className={styles.text}>{<BiCameraMovie className={styles.iconText}/>} React Flix</h1>
             </Link>
             <ul>
-                <Link to='/'>Home</Link>
+                <Link to='/Home'>Home</Link>
                 <Link to='/Login'>Login</Link>
                 <Link to='/Filmes'>Filmes</Link>
                 <Link to='/Sobre'>Sobre</Link>
