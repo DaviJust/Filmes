@@ -6,7 +6,7 @@ import { useState } from 'react'
 function Header(){
     return(
         <div className={styles.headerDiv}>
-            <Link to='/'>
+            <Link to='/Home'>
                 <h1 className={styles.text}>{<BiCameraMovie className={styles.iconText}/>} React Flix</h1>
             </Link>
             <ul>
